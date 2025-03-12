@@ -4,8 +4,11 @@ Database connection handler using SQLAlchemy and PostgreSQL.
 
 import os
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, declarative_base
 from app.core.config import settings
+
+# Base class for all models
+Base = declarative_base()
 
 # Get the database URL from the environment
 DATABASE_URL = settings.SQL_URL

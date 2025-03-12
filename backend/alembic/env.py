@@ -22,7 +22,7 @@ if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
 # Import models here
-from app.db.models import Base
+from app.db.session import Base
 
 # Target metadata for 'autogenerate'
 target_metadata = Base.metadata

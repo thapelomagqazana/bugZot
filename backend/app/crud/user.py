@@ -4,7 +4,7 @@ CRUD operations for the User model.
 
 from sqlalchemy.orm import Session
 from typing import List, Optional
-from app.db.models import User
+from app.db.models.users.user import User
 from app.schemas.user import UserCreate, UserUpdate
 from app.utils.security import hash_password
 

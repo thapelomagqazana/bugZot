@@ -6,7 +6,7 @@ from app.utils.security import verify_password
 from app.utils.jwt import create_access_token
 from app.core.config import settings
 from app.schemas.auth import SignInRequest, TokenResponse
-from app.db.models import User
+from app.db.models.users.user import User
 from app.core.logging import logger
 from datetime import timedelta
 

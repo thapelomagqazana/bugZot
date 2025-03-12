@@ -6,7 +6,7 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from app.utils.jwt import verify_access_token
 from app.crud.user import get_user
-from app.db.models import User
+from app.db.models.users.user import User
 from app.repositories.user_sql import UserSQLRepository
 from app.repositories.user_nosql import UserNoSQLRepository
 from app.core.config import settings

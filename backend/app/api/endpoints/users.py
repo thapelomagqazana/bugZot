@@ -5,7 +5,7 @@ from typing import List
 from app.repositories.base import BaseRepository
 from app.deps import get_user_repository, get_current_user
 from app.schemas.user import UserCreate, UserOut, UserUpdate
-from app.db.models import User
+from app.db.models.users.user import User
 from app.core.logging import logger
 
 
