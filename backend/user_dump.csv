@@ -1,0 +1,9 @@
+username,password,email,role,joining_date,last_login,account_status,activation_key
+johndoe,$2b$12$ABC123XYZ/johndoe@example.com,Admin,2024-01-15,2025-03-01,active,ABCD-1234-XYZ
+janedoe,$2b$12$DEF456XYZ/janedoe@example.com,User,2023-05-10,,inactive,
+alice,$2b$12$GHI789XYZ/alice@example.com,Developer,2022-12-20,2024-12-05,active,EFGH-5678-UVW
+bob,$2b$12$JKL012XYZ/bob@example.com,QA,2021-06-25,2023-10-30,active,MNOP-9012-XYZ
+charlie,$2b$12$MNO345XYZ/charlie@example.com,Admin,2023-02-14,2025-01-10,active,
+eve,$2b$12$PQR678XYZ/eve@example.com,Support,2020-11-18,2023-07-25,active,QRST-3456-XYZ
+frank,$2b$12$STU901XYZ/frank@example.com,User,2024-02-01,,inactive,
+grace,$2b$12$VWX234XYZ/grace@example.com,Developer,2021-07-12,2023-11-10,active,ZYXW-6543-ABC
